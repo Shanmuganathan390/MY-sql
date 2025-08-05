@@ -162,4 +162,3 @@ select SALARY TOP_10_SALARY from Employee order by SALARY desc limit 10 ;
 
 -- 49 SELECT 2ND HIGHEST SALARY FROM THE TABLE
 select SALARY 2ND_HIGHEST_SALARY from Employee limit 1 offset 1 ;
-drop database sun;
